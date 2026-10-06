@@ -1,0 +1,4 @@
+fixed acidity,volatile acidity,citric acid,residual sugar,chlorides,free sulfur dioxide,total sulfur dioxide,density,pH,sulphates,alcohol,Predicted Quality,Uncalibrated P(quality=3),Uncalibrated P(quality=4),Uncalibrated P(quality=5),Uncalibrated P(quality=6),Uncalibrated P(quality=7),Uncalibrated P(quality=8)
+7.8,0.88,0.0,2.6,0.098,25,67,0.9968,3.2,0.68,9.8,5,0.035,0.215,0.515,0.1925,0.0425,0.0
+7.2,0.5,0.25,2.2,0.08,15,45,0.9965,3.3,0.62,10.2,6,0.0,0.03,0.3775,0.4975,0.095,0.0
+8.5,0.28,0.45,2.0,0.06,12,30,0.995,3.35,0.9,13.0,7,0.0,0.0,0.0075,0.0725,0.8775,0.0425

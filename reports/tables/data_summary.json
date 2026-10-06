@@ -1,0 +1,13 @@
+{
+  "raw_rows": 1599,
+  "clean_rows": 1359,
+  "duplicates_removed": 240,
+  "quality_counts": {
+    "3": 10,
+    "4": 53,
+    "5": 577,
+    "6": 535,
+    "7": 167,
+    "8": 17
+  }
+}

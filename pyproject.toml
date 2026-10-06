@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "wine-quality-prediction"
+version = "0.1.0"
+description = "Reproducible red wine quality modeling and evaluation"
+requires-python = ">=3.10"
+dependencies = [
+    "pandas>=2.2,<4", "numpy>=1.26,<3", "scikit-learn>=1.5,<2",
+    "matplotlib>=3.8,<4", "seaborn>=0.13,<0.14", "joblib>=1.4,<2",
+]
+
+[project.scripts]
+wine-quality = "wine_quality.__main__:main"
+
+[tool.setuptools.packages.find]
+include = ["wine_quality*"]

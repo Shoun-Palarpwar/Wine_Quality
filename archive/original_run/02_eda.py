@@ -56,11 +56,10 @@ print(corr["quality"].drop("quality").sort_values(ascending=False).round(3).to_s
 top_features = corr["quality"].drop("quality").abs().sort_values(ascending=False).head(6).index.tolist()
 fig, axes = plt.subplots(2, 3, figsize=(15, 8))
 for ax, col in zip(axes.flat, top_features):
-    sns.boxplot(data=df, x="quality", y=col, ax=ax, palette="dark:#B0555A",
-                hue="quality", legend=False)
+    sns.boxplot(data=df, x="quality", y=col, ax=ax, color="#B0555A", hue="quality", legend=False)
     ax.set_title(f"{col} vs Quality", fontsize=11, fontweight="bold")
 plt.tight_layout()
-plt.savefig("./eda_top_features_vs_quality.png", dpi=150)
+plt.savefig("/home/claude/wine/eda_top_features_vs_quality.png", dpi=150)
 plt.close()
 
 print("\nSaved: eda_quality_distribution.png, eda_feature_distributions.png, eda_correlation.png, eda_top_features_vs_quality.png")
