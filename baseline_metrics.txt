@@ -1,0 +1,2 @@
+Baseline Random Forest Accuracy: 0.6140
+Baseline Random Forest Weighted F1: 0.5949

@@ -1,0 +1,3 @@
+Model,Accuracy,Weighted F1
+"Baseline RF (n_estimators=200, defaults)",0.614,0.5949
+Tuned RF (GridSearchCV),0.6102941176470589,0.584893930406778
